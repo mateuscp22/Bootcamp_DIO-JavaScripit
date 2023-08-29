@@ -89,3 +89,16 @@ console.log(maiorIgual);
 //Menor ou igual
 var menorIgual = 5 <= 7;
 console.log(menorIgual);
+
+//Operadores lógicos
+// && "and"
+var and = true && false;
+console.log(and);
+
+// || "or"
+var or = true || false;
+console.log(or);
+
+// ! "not"
+var not = !true;
+console.log(not);
