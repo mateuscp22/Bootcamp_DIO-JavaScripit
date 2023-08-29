@@ -72,3 +72,20 @@ console.log(divInt);
 //Potenciação
 var potencicacao = 2 * 5;
 console.log(potencicacao);
+
+//Operadores relacionais
+//Maior que
+var maiorQue = 5 > 2;
+console.log(maiorQue);
+
+//Menor que
+var menorQue = 5 < 2;
+console.log(menorQue);
+
+//Maior ou igual
+var maiorIgual = 5 >= 5;
+console.log(maiorIgual);
+
+//Menor ou igual
+var menorIgual = 5 <= 7;
+console.log(menorIgual);
