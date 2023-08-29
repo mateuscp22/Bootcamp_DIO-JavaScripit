@@ -36,3 +36,14 @@ function escopoLocal() {
 }
 
 escopoLocal();
+
+//Atribuição
+var atribuicao = "Mateus CP";
+
+//Comparação
+var comparacao = "0" == 0;
+console.log(comparacao);
+
+//Comparação identica
+var comparacaoIdentica = "0" === 0;
+console.log(comparacaoIdentica);
