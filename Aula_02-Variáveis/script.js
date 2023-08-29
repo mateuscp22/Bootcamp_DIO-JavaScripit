@@ -47,3 +47,28 @@ console.log(comparacao);
 //Comparação identica
 var comparacaoIdentica = "0" === 0;
 console.log(comparacaoIdentica);
+
+//Operadores aritiméticos
+//Adição
+var adicao = 1 + 1;
+console.log(adicao);
+
+//Subtração
+var subtrcao = 2 - 1;
+console.log(subtrcao);
+
+//Multiplicação
+var multiplicacao = 3 * 5;
+console.log(multiplicacao);
+
+//Divisão
+var divisao = 10 / 2;
+console.log(divisao);
+
+//Divisão inteira
+var divInt = 10 % 2;
+console.log(divInt);
+
+//Potenciação
+var potencicacao = 2 * 5;
+console.log(potencicacao);
