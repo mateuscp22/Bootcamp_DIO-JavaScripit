@@ -25,3 +25,14 @@ console.log(var02);
 const var03 = "Mateus";
 /* var03 = "CP"; */
 console.log(var03);
+
+//Escopo local e global
+var escopoGlobal = "Global";
+console.log(escopoGlobal);
+
+function escopoLocal() {
+  let escopoLocalInterno = "Local";
+  console.log(escopoLocalInterno);
+}
+
+escopoLocal();
