@@ -5,3 +5,11 @@ function funcao() {
 }
 
 funcao();
+
+// Functions with parameters
+
+function mensagem(primeiro, segundo) {
+  console.log(primeiro, segundo);
+}
+
+mensagem("Mensagem 2", ", teste");
