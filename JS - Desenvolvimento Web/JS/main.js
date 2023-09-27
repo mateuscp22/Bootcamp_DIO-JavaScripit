@@ -24,13 +24,12 @@ function convertPokemonLi(pokemon) {
 
 const pokemonList = document.getElementById("pokemonList");
 
-fetch(url)
-  .then((response) => response.json())
-  .then((jsonBody) => jsonBody.results)
-  .then((pokemons) => {
-    for (let i = 0; i < pokemons.length; i++) {
-      const pokemon = pokemons[i];
-      pokemonList.innerHTML += convertPokemonLi(pokemon);
-    }
-  })
-  .catch((error) => console.error(error));
+pokeApi.getPokemons().then((pokemons) => {
+  const listItens = [];
+
+  for (let i = 0; i < pokemons.length; i++) {
+    const pokemon = pokemons[i];
+    listItens.push(convertPokemonLi(pokemon));
+  }
+  console.log(listItens);
+});
